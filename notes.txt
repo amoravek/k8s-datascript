@@ -1,0 +1,33 @@
+  kubeadm join api.c3.k8s.6shore.net:6443 --token wdfkb8.ttem9qd9w7ysryo9 \
+    --discovery-token-ca-cert-hash sha256:f4ec046e8beaec9ac42075c7504e6df1d53bafc44bbc6a0662f195f763976299 \
+    --control-plane 
+
+kubeadm join api.c3.k8s.6shore.net:6443 --token wdfkb8.ttem9qd9w7ysryo9 \
+    --discovery-token-ca-cert-hash sha256:f4ec046e8beaec9ac42075c7504e6df1d53bafc44bbc6a0662f195f763976299 
+
+aba47814ce627e7920b6715d84eb9cc86d7f887f5c230f420051628bca201a77
+
+
+kubectl label nodes ip-10-0-0-10.eu-central-1.compute.internal --overwrite node-role.kubernetes.io/master-
+kubectl label nodes ip-10-0-0-10.eu-central-1.compute.internal --overwrite kubernetes.io/role=mixed
+kubectl taint nodes ip-10-0-0-10.eu-central-1.compute.internal node-role.kubernetes.io/master:NoSchedule-
+
+kubectl label nodes ip-10-0-0-11.eu-central-1.compute.internal --overwrite node-role.kubernetes.io/master-
+kubectl label nodes ip-10-0-0-11.eu-central-1.compute.internal --overwrite kubernetes.io/role=mixed
+kubectl taint nodes ip-10-0-0-11.eu-central-1.compute.internal node-role.kubernetes.io/master:NoSchedule-
+
+kubectl label nodes ip-10-0-0-12.eu-central-1.compute.internal --overwrite node-role.kubernetes.io/master-
+kubectl label nodes ip-10-0-0-12.eu-central-1.compute.internal --overwrite kubernetes.io/role=mixed
+kubectl taint nodes ip-10-0-0-12.eu-central-1.compute.internal node-role.kubernetes.io/master:NoSchedule-
+
+kubeadm certs renew ...
+
+https://github.com/tomkukral/kubernetes-examples.git
+
+- api pin version (sources.list.d/xxx)
+- tmux (asi ala screen)
+- kaint
+- croc - kopirovani souboru v k8s prostredi
+
+kubectl wailt --for=condition=available ...
+
