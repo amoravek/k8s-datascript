@@ -11,7 +11,7 @@ spec:
   source:
     repoURL: https://github.com/amoravek/k8s-datascript.git
     targetRevision: HEAD
-    path: argo/cd
+    path: apps
   destination:
     name: https://kubernetes.default.svc
     namespace: argo
