@@ -1,0 +1,7 @@
+- type: git
+  url: https://github.com/tomkukral/kubernetes-examples
+- type: git
+  url: https://gitlab.com/6shore.net/kad.git
+- type: git
+  url: https://github.com/amoravek/k8s-datascript.git
+
