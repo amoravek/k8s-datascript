@@ -31,3 +31,10 @@ https://github.com/tomkukral/kubernetes-examples.git
 
 kubectl wailt --for=condition=available ...
 
+finalizers?
+
+webhooks?
+
+kubernetes-mixin - grafana dashboardy a rules
+
+cat xx | xclip

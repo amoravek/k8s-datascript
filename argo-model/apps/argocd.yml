@@ -4,17 +4,17 @@ metadata:
   name: argocd
   namespace: argo
   labels:
-    cluster: in-cluster
+    cluster: c0
     app: argocd
 spec:
   project: default
-  source:
-    repoURL: https://github.com/amoravek/k8s-datascript.git
-    targetRevision: HEAD
-    path: apps
   destination:
-    name: https://kubernetes.default.svc
+    name: in-cluster
     namespace: argo
+  source:
+    repoURL: https://gitlab.com/tomkukral/training-model.git
+    targetRevision: HEAD
+    path: argo/cd
   syncPolicy:
     syncOptions:
     - Validate=true
