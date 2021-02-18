@@ -47,3 +47,21 @@ skopeo - inspect images
 
 minio
 
+spinnaker...nepouziva se
+
+backup - restic, velero
+
+trivy - vuln scan
+
+rakkes
+
+kube-bench - cluster test
+
+kubeadm certs renew all
+
+ksniff
+
+fzf fuzzy finder? -- ssh lookup
+
+
+remark
