@@ -12,9 +12,9 @@ spec:
     name: in-cluster
     namespace: argo
   source:
-    repoURL: https://gitlab.com/tomkukral/training-model.git
+    repoURL: https://github.com/amoravek/k8s-datascript.git
     targetRevision: HEAD
-    path: argo/cd
+    path: argo-model/argo/cd
   syncPolicy:
     syncOptions:
     - Validate=true

@@ -38,3 +38,12 @@ webhooks?
 kubernetes-mixin - grafana dashboardy a rules
 
 cat xx | xclip
+
+certigo
+
+buildah
+
+skopeo - inspect images
+
+minio
+

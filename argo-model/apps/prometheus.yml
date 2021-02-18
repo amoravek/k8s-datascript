@@ -9,9 +9,9 @@ spec:
     name: in-cluster
     namespace: prometheus
   source:
-    repoURL: https://gitlab.com/tomkukral/training-model.git
+    repoURL: https://github.com/amoravek/k8s-datascript.git
     targetRevision: HEAD
-    path: prometheus
+    path: argo-model/prometheus
   syncPolicy:
     syncOptions:
     - Validate=true
