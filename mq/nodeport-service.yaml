@@ -10,7 +10,7 @@ spec:
     port: 1414
     protocol: TCP
     targetPort: mq-listener
-    nodePort 31414
+    nodePort: 31414
   - name: metrics
     port: 9157
     protocol: TCP
