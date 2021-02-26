@@ -21,7 +21,7 @@ generatorOptions:
   annotations:
     note: generated
 resources:
-- imagestream.yaml
+#- imagestream.yaml
 - statefulset.yaml
 - headless-service.yaml
 - nodeport-service.yaml
