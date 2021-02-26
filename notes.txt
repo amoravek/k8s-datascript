@@ -65,3 +65,5 @@ fzf fuzzy finder? -- ssh lookup
 
 
 remark
+
+permission-manager
